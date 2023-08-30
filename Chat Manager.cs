@@ -5,7 +5,7 @@ using UnityEngine.UI;
 //In hierarchy add the following canvas>empty[Chat Manager]>image>Name,Message
 //name and message is text object use the anchors in unity to place them over the image(chatbubble)
 //add this script to empty and use ChatBubbleManager.Instance.<FunctionToCall>(); in any script
-public class ChatBubbleManager : MonoBehaviour
+public class ChatManager : MonoBehaviour
 {
     public GameObject ChatBubble;
     private Text message_;
