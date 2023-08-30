@@ -1,5 +1,6 @@
 using UnityEngine;
 
+//Add a script to the object you want to make interactable and in it make a function called Interact() this will be called.
 public class AbilityToInteract : MonoBehaviour
 {
     public float interactionDistance = 3.0f; //Interactable distance
